@@ -2,9 +2,10 @@
 
 ---
 
-# **AI Breast Cancer Diagnostic Assistant**
+This project implements an **Mine Prediction Assistant** leveraging machine learning techniques. It uses the **Sonar dataset** to classify the detected objects as Mines or Rocks. 
+This is a file containing data collected from sonar technology. It could include information such as the depth of the water, the time it takes for sound waves to travel and return (ping time), and the amplitude of the returned signal. Each row in the CSV file likely represents a single measurement or observation, while the columns represent different parameters or features.
 
-This project implements an **AI-powered Breast Cancer Diagnostic Assistant** leveraging machine learning techniques. It uses the **Breast Cancer Wisconsin (Diagnostic) dataset** to classify tumors as malignant or benign. The project is enhanced with a user-friendly **Streamlit-based web interface**, providing interactive insights and predictions.
+The data in **Sonar_data.csv** could be used for various purposes, such as analyzing underwater terrain, detecting underwater objects like submarines or rocks, or studying marine life by identifying the echoes produced by different species.
 
 ---
 
