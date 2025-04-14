@@ -3,6 +3,7 @@
 ---
 
 This project implements an **Mine Prediction Assistant** leveraging machine learning techniques. It uses the **Sonar dataset** to classify the detected objects as Mines or Rocks. 
+
 This is a file containing data collected from sonar technology. It could include information such as the depth of the water, the time it takes for sound waves to travel and return (ping time), and the amplitude of the returned signal. Each row in the CSV file likely represents a single measurement or observation, while the columns represent different parameters or features.
 
 The data in **Sonar_data.csv** could be used for various purposes, such as analyzing underwater terrain, detecting underwater objects like submarines or rocks, or studying marine life by identifying the echoes produced by different species.
@@ -11,7 +12,9 @@ The data in **Sonar_data.csv** could be used for various purposes, such as analy
 
 ## **Overview**
 
-Breast cancer remains one of the leading causes of cancer-related deaths worldwide. Early and accurate detection is vital for effective treatment. This project uses the **AdaBoost** algorithm combined with **SMOTE (Synthetic Minority Oversampling Technique)** to enhance classification. The tool integrates features like feature importance visualization, real-time predictions, and advanced performance analysis.
+Analyzing sonar data often involves techniques from signal processing, machine learning, and data visualization to extract meaningful insights and patterns from the vast amounts of data collected. It could help in navigation, underwater exploration, environmental monitoring, and defense applications.
+
+The solution integrates signal interpretation with Logistic Regression as it performs well for binary classification.
 
 ---
 
@@ -21,15 +24,7 @@ Install the following libraries:
 - `pandas`
 - `numpy`
 - `scikit-learn`
-- `seaborn`
 - `matplotlib`
-- `plotly`
-- `joblib`
-
-Install them via:
-```bash
-pip install pandas numpy scikit-learn seaborn matplotlib plotly joblib streamlit
-```
 
 ---
 
@@ -40,20 +35,16 @@ pip install pandas numpy scikit-learn seaborn matplotlib plotly joblib streamlit
 - **Evaluation**:
   - Accuracy
   - Confusion Matrix
-  - Classification Report
   - Precision, Recall, F1-Score
 
 ### **Visualization**:
-- **Correlation Heatmap**: Understand feature relationships.
-- **Gauge Chart**: Display confidence levels.
 - **Pie Chart**: Represent probability distribution.
 
 ---
 
 ## **Performance Highlights**
 
-- **Accuracy**: Achieved with advanced AdaBoost techniques.
-- **AUC-ROC**: Indicates the model’s capability to distinguish between classes.
+- **Accuracy**: Achieved with advanced Machine Learning techniques.
 - **Precision-Recall**: Provides trade-offs for imbalanced datasets.
 
 ---
@@ -66,4 +57,4 @@ pip install pandas numpy scikit-learn seaborn matplotlib plotly joblib streamlit
 
 ---
 
-**Transforming diagnosis with AI for better healthcare.**
+**Detecting threats before they surface — AI-powered mine prediction for a safer world.**
